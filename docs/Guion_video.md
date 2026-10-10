@@ -2,7 +2,7 @@
 
 Santiago Duque Mora y Geraldine Ríos. Video separado. Duración estimada de lectura: 6 a 8 minutos con pausas; comprobar duración al montar. Máximo: 10 minutos.
 
-Los textos siguientes son un guion propuesto, no una grabación terminada. Las cifras corresponden a docs/resultados. La captura y el montaje de pantallas se preparan a partir del código y sus salidas; los integrantes no necesitan grabar la pantalla. Santiago se mantiene en ventana pequeña, con rostro y camiseta azul oscura, sin el subtítulo retirado. Conservar la voz y el acento de Geraldine. No reutilizar audios de Actividad 2 como si explicaran estos resultados.
+Guion para revisión. Las indicaciones de pantalla sirven para el montaje y no se leen en voz alta. Las cifras corresponden a los resultados guardados en el repositorio.
 
 ## 01 · Santiago · Presentación y continuidad
 
@@ -14,7 +14,7 @@ Somos Santiago Duque Mora y Geraldine Ríos. En la Actividad 2 trabajamos con ru
 
 Pantalla: dataset_transporte.csv y Descripcion_datos.pdf
 
-La muestra tiene cinco mil escenarios simulados de ocho estaciones. No son mediciones oficiales del Metro. El archivo inicial correspondía a TransMilenio y no tenía una fuente documentada. Para mantener la continuidad del proyecto generamos una muestra nueva y dejamos el archivo anterior como antecedente. El generador tiene una semilla fija y permite reproducir los mismos datos. Después de eliminar veintisiete duplicados quedan cuatro mil novecientos setenta y tres filas.
+La muestra tiene cinco mil escenarios simulados de ocho estaciones. No son mediciones oficiales del Metro. Cada fila representa una estación en una franja horaria e incluye el día, la lluvia y la presencia de un evento especial. El generador tiene una semilla fija y permite reproducir los mismos datos. Después de eliminar veintisiete duplicados quedan cuatro mil novecientos setenta y tres filas.
 
 ## 03 · Santiago · Comandos de ejecución
 

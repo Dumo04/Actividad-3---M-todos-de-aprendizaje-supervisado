@@ -1,4 +1,4 @@
-"""Actividad 3. Árbol de decisión y Random Forest, a partir del trabajo de Geraldine."""
+"""Aprendizaje supervisado: demanda del Metro con Árbol de Decisión y Random Forest."""
 from pathlib import Path
 import argparse, json, platform
 import matplotlib
