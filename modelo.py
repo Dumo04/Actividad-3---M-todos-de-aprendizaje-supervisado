@@ -14,7 +14,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.tree import DecisionTreeClassifier, export_text, plot_tree
 
 # 1. Carga y exploración ------------------------------------------------------
-df = pd.read_csv("data/dataset_transporte.csv")
+df = pd.read_csv("dataset_transporte.csv")
 print(df.info()); print(df.describe(include="all")); print(df.isna().sum())
 
 # 2. Limpieza básica ----------------------------------------------------------
